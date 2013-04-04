@@ -138,6 +138,8 @@ btn:focus {
 }
 .middle .personal-info {
     background: url("../img/personal-info-sep.png") no-repeat transparent 0% 30%;
+    margin-left: 1.5%;
+    padding-left: 3%;
 }
 .middle .dl-horizontal {
     margin: 0
