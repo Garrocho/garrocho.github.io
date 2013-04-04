@@ -42,13 +42,13 @@ btn:focus {
     background: #726561; /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ3JSIgc3RvcC1jb2xvcj0iI2Y2ZjZmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZGVkZWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    background: -moz-linear-gradient(top, #726561 0%, #685D59 47%, #5F5450 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#726561), color-stop(47%,#685D59), color-stop(100%,#5F5450)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #726561 0%,#685D59 47%,#5F5450 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #726561 0%,#685D59 47%,#5F5450 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #726561 0%,#685D59 47%,#5F5450 100%); /* IE10+ */
-    background: linear-gradient(to bottom, #726561 0%,#685D59 47%,#5F5450 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#726561', endColorstr='#5F5450',GradientType=0 ); /* IE6-8 */
+    background: -moz-linear-gradient(top, #4183c4 0%, #4183c4 47%, #4183c4 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4183c4), color-stop(47%,#685D59), color-stop(100%,#4183c4)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #4183c4 0%,#4183c4 47%,#4183c4 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #4183c4 0%,#4183c4 47%,#4183c4 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #4183c4 0%,#4183c4 47%,#4183c4 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #4183c4 0%,#4183c4 47%,#4183c4 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#726561', endColorstr='#4183c4',GradientType=0 ); /* IE6-8 */
 }
 .top .logo h2 {
     line-height: 1;
@@ -69,7 +69,7 @@ btn:focus {
 }
 .top .social-media li a {
     font-size: 14px;
-    color: #5F5450;
+    color: #000000;
     background-color: #FFFFFF;
     padding: 5px 0;
     border-radius: 500px;
@@ -152,7 +152,7 @@ btn:focus {
     padding: 4px 10px;
     margin-bottom: 20px;
     color: #FFFFFF;
-    background-color: #897B76;
+    background-color: #4183c4;
     border-radius : 10px;
     -moz-border-radius : 10px;
     -webkit-border-radius : 10px;
@@ -181,7 +181,7 @@ btn:focus {
     padding: 5px 0;
     text-align: center;
     color: #FFFFFF;
-    background-color: #5F5450;
+    background-color: #0080FF;
     border-radius : 500px;
     -moz-border-radius : 500px;
     -webkit-border-radius : 500px;
@@ -211,13 +211,13 @@ btn:focus {
 .middle .block  .content-holder .content-inner h4 span{
     font-size: 13px;
     font-weight: 300;
-    color: #5F5450;
+    color: #4183c4;
 }
 .middle .block  .content-holder .content-inner h5{
     margin: 0 0 5px;
     font-size: 14px;
     font-weight: 400;
-    color: #5F5450;
+    color: #4183c4;
 }
 .middle .block  .content-holder .content-inner p{
      font-size: 12px;
@@ -275,7 +275,7 @@ btn:focus {
      font-size: 12px;
      padding: 4px 10px;
      color: #FFFFFF;
-     background-color: #5F5450;
+     background-color: #4183c4;
      border-radius: 10px;
      -moz-border-radius: 10px;
      -webkit-border-radius: 10px;
@@ -294,7 +294,7 @@ btn:focus {
     text-align: center;
     width: 190px;
     margin: 20px 0 0 20px;
-    color: #5F5450;
+    color: #4183c4;
     background: #FFFFFF;
     border-bottom: 1px solid #F2F2F2;
 }
@@ -307,14 +307,14 @@ btn:focus {
     text-decoration: none;
 }
 .filterable > li > a > img{	
-    border-bottom: 3px solid #5F5450;
+    border-bottom: 3px solid #4183c4;
 }    
 .filterable > li > a > h5{
     margin-bottom: 0;
 }
 .filterable > li > a:hover > h5,
 .filterable > li > a:focus > h5 {
-    color: #5F5450;
+    color: #4183c4;
 }
 .filterable > li > a > span{
     color: #333333;
@@ -343,11 +343,11 @@ btn:focus {
 }
 .middle#contact form input:focus,
 .middle#contact form textarea:focus {
-     border-color: #5F5450;
+     border-color: #4183c4;
 }
 .middle#contact form button { 
     background: none;
-    background-color: #5F5450;
+    background-color: #4183c4;
     color: #FFFFFF;
     text-shadow: none;  
 }
@@ -380,7 +380,7 @@ btn:focus {
       LINKS
 ********************/
 .links {
-    border-top: 5px solid #5F5450;
+    border-top: 5px solid #4183c4;
     border-bottom-right-radius: 10px;
     -webkit-border-bottom-right-radius: 10px;
     -moz-border-radius-bottomright: 10px;
@@ -418,7 +418,7 @@ btn:focus {
 }
 .links .nav > li > a:hover,
 .links .nav > li > a:focus {
-    color: #5F5450;
+    color: #4183c4;
     background-color: #f9f9f9;
 }
 .links .nav > .active > a,
@@ -426,9 +426,9 @@ btn:focus {
 .links .nav > .active > a:focus {
     color: #FFFFFF;
     text-shadow: none;
-    background-color: #5F5450;
-    border-right: 1px solid #5F5450;
-    border-left: 1px solid #5F5450;
+    background-color: #4183c4;
+    border-right: 1px solid #4183c4;
+    border-left: 1px solid #4183c4;
 }
 .links .nav > li > a > i {
     font-size: 36px;
