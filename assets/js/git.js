@@ -8,7 +8,7 @@ jQuery.fn.carregarRepositorios = function(nome) {
   var target = this;
   $.getJsonRepos(nome, function(data) {
   var repos = data.data;
-  ordenarPorFork(repos);  
+  ordenarPorFork(repos);
 
   var list = $('<dl/>');
   target.empty().append(list);
