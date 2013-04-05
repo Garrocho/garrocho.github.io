@@ -365,6 +365,19 @@
 </div>
 
 
+<!-- GitHub Fork Me Ribbon -->
+<a href="http://github.com/CharlesGarrocho/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="assets/img/rightBlack.png" alt="Fork me on GitHub"></a>
+
+<!-- Google+ Plus One Button, asynchronous code -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+
 <!-- /.container-narrow -->
 <!-- javascript -->
 <script src="assets/js/jquery.js"></script>
@@ -379,5 +392,11 @@
 <script src="resumee-assets/js/jquery.validate.js"></script>
 <script src="resumee-assets/js/customizacao.js"></script>
 
+<script src="assets/js/git.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+$("#meus-projetos").carregarRepositorios("CharlesGarrocho");
+});
+</script>
 </body>
 </html>
