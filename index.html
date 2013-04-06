@@ -254,6 +254,12 @@
 					$(function() {
 						$("#meus-projetos").carregarRepositorios("CharlesGarrocho");
 					});
+				
+					$(document).ready(function(){
+            			$('#proj').click(function(){
+            				$("#meus-projetos").carregarRepositorios("CharlesGarrocho");
+            			});
+            		});
 				</script>
 			</div>
 			<!-- /#work -->
@@ -345,7 +351,7 @@
 				<ul class="etabs nav nav-pills">
 					<li class="emenu"><a href="#perfil"><i class="icon-user"></i><span>Perfil</span></a></li>
 					<li class="emenu"><a href="#curriculo"><i class="icon-tasks"></i><span>Currículo</span></a></li>
-					<li class="emenu"><a href="#projetos"><i class="icon-briefcase"></i><span>Projetos</span></a></li>
+					<li class="emenu"><a href="#projetos" id="proj"><i class="icon-briefcase"></i><span>Projetos</span></a></li>
 					<li class="emenu"><a href="#contato"><i class="icon-envelope-alt"></i><span>Contato</span></a></li>
 				</ul>
 				<!-- /.etabs -->
