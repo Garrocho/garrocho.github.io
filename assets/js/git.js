@@ -8,7 +8,7 @@ jQuery.fn.carregarRepositorios = function(nome) {
   var target = this;
   $.getJsonRepos(nome, function(data) {
   var repos = data.data;
-  ordenarPorFork(repos);
+  ordenarPorWatchers(repos);
 
   var list = $('<dl>');
   target.empty().append(list);
@@ -23,9 +23,9 @@ jQuery.fn.carregarRepositorios = function(nome) {
   });   
 });
 
-function ordenarPorFork(repos) {
+function ordenarPorWatchers(repos) {
   repos.sort(function(a,b) {
-	return b.forks - a.forks;
+  return (b.watchers - a.watchers) ;
   });
-  }
+}
 };
