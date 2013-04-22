@@ -453,3 +453,17 @@ btn:focus {
     margin-left: auto;
     margin-right: auto;
 }
+.social-count {
+    position: relative;
+    display: inline-block;
+    padding: 0 7px 0;
+    margin-left: 8px;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #333333;
+    vertical-align: middle;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
