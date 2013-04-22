@@ -86,6 +86,9 @@ btn:focus {
 .top .social-media li a.facebook:hover {
     background-color: #3b5998
 }
+.top .social-media li a.blogspot:hover {
+    background-color: #008000
+}
 .top .social-media li a.github:hover {
     background-color: #22b1e5
 }

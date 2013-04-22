@@ -14,11 +14,11 @@ jQuery.fn.carregarRepositorios = function(nome) {
   target.empty().append(list);
   $(repos).each(function() {
 	if (this.name != (nome.toLowerCase()+'.github.com') && this.name != 'TSI') {
-	list.append('<dd><br/></dd>');
-	list.append('<dt><a href="'+ (this.homepage?this.homepage:this.html_url) +'">' + this.name + '</a> <em>'+(this.language?('('+this.language+')'):'')+'</em></dt>');
-	list.append('<dd>' + this.description + '</dd>');
-	list.append('<dd><em>Tamanho: '+(this.size<1000?(this.size+' kB'):(Math.round((this.size/1000)*100)/100+' MB'))+' &mdash; Stars: <a href="'+ this.url.replace("api.","").replace("repos/","")+'/stargazers">'+this.watchers+'</a> &mdash; Forks: <a href="'+ this.url.replace("api.","").replace("repos/","")+'/network/members">'+this.forks+'</a> </em></dd>');
-	list.append('<dd><a href="'+this.url.replace("api.","").replace("repos/","")+'#readme">Readme</a> &mdash; <a href="' + this.url.replace("api.","").replace("repos/","")+'/zipball/master">Download</a> </dd>');
+    list.append('<dt><a href="'+ (this.homepage?this.homepage:this.html_url) +'">' + this.name + '</a> <em>'+(this.language?('('+this.language+')'):'')+'</em></dt>');
+    list.append('<dd>' + this.description + '</dd>');
+    list.append('<dd><em>Tamanho: '+(this.size<1000?(this.size+' kB'):(Math.round((this.size/1000)*100)/100+' MB'))+' &mdash; Stars: <a href="'+ this.url.replace("api.","").replace("repos/","")+'/stargazers">'+this.watchers+'</a> &mdash; Forks: <a href="'+ this.url.replace("api.","").replace("repos/","")+'/network/members">'+this.forks+'</a> </em></dd>');
+    list.append('<dd><a href="'+this.url.replace("api.","").replace("repos/","")+'#readme">Readme</a> &mdash; <a href="' + this.url.replace("api.","").replace("repos/","")+'/zipball/master">Download</a> </dd>');
+    list.append('<dd><br/></dd>');
 	  }
   });   
 });

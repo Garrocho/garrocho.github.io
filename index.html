@@ -27,6 +27,7 @@
 				<ul class="social-media pull-right">
 					<li><a href="http://www.facebook.com/charles.garrocho" class="facebook"><i class="icon-facebook"></i></a></li>
 					<li><a href="https://github.com/ChalesGarrocho" class="github"><i class="icon-github-alt"></i></a></li>
+					<li><a href="http://charlesgarrocho.blogspot.com.br" class="blogspot"><i class="icon-coffee"></i></a></li>
 					<li><a href="mailto:charles.garrocho@gmail.com" class="contato"><i class="icon-envelope-alt"></i></a></li>
 					<li><a href="https://plus.google.com/115525794064655356340" class="google-plus"><i class="icon-google-plus"></i></a></li>
 				</ul>
@@ -224,20 +225,8 @@
 
 			<!-- /#projetos -->
 			<div class="middle" id="projetos">
-				<h3>Meus Projetos Open Source</h3>
 				<div id="meus-projetos">
 				</div>
-				<script type="text/javascript">
-					$(function() {
-						$("#meus-projetos").carregarRepositorios("CharlesGarrocho");
-					});
-				
-					$(document).ready(function(){
-            			$('#proj').click(function(){
-            				$("#meus-projetos").carregarRepositorios("CharlesGarrocho");
-            			});
-            		});
-				</script>
 			</div>
 			<!-- /#projetos -->
 
@@ -352,5 +341,16 @@
 	<script src="assets/js/jquery.validate.js"></script>
 	<script src="assets/js/customizacao.js"></script>
 	<script src="assets/js/git.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$("#meus-projetos").carregarRepositorios("CharlesGarrocho");
+		});
+
+		$(document).ready(function(){
+			$('#proj').click(function(){
+				$("#meus-projetos").carregarRepositorios("CharlesGarrocho");
+			});
+		});
+	</script>
 </body>
 </html>
