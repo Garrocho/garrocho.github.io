@@ -81,33 +81,7 @@ jQuery(document).ready(function(){
 /******************************************/
 		$('a[rel=fancybox]').fancybox();
 		
- /*****************************************/
-/*      GOOGLE MAP                        */
-/******************************************/	
-	$("#google-map").gmap3({
-				  map:{
-					options:{
-					  mapTypeId: google.maps.MapTypeId.SATELLITE,
-						mapTypeControl: true,
-						mapTypeControlOptions: {
-						style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
-						},
-						navigationControl: true,
-						scrollwheel: true,
-						streetViewControl: true,
-						center:[-21.200772, -43.705027],
-						zoom: 18,
-					}
-				  },
-				  marker:{
-					values:[
-					  {latLng:[-21.200755, -43.705027]}
-					],
-					options:{
-					  draggable: false
-					}
-				  }
-			});
+
  /*****************************************/
 /*     Validate and ajax submit for contact form                      */
 /******************************************/
