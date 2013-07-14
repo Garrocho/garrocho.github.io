@@ -326,59 +326,6 @@ btn:focus {
     margin-bottom: 10px;
 }
 
-/* CONTACT */
-
-.middle #google-map {
-     width: 100%;
-     height: 250px;
-     margin: -20px 0px 20px -20px;
-     padding: 0px 40px 0px 0px;
-     border-bottom: 1px solid #B9B9B9;
-}
-
-.middle#contact form input,
-.middle#contact form textarea,
-.middle#contact form button {
-     margin-top: 20px;
-     font-size: 12px;
-     background-color:#F9F9F9;
-     box-shadow:none;
-}
-.middle#contact form input:focus,
-.middle#contact form textarea:focus {
-     border-color: #4183c4;
-}
-.middle#contact form button { 
-    background: none;
-    background-color: #4183c4;
-    color: #FFFFFF;
-    text-shadow: none;  
-}
-.middle#contact form button:hover,
-.middle#contact form button:focus{ 
-    background-color: #897B76;
-}
-.middle#contact form input#inputEmail {
-     margin-left: 6px;
-}
-/* Hide error message */
-.form-inline label.error {
-    display: none !important
-}
-/* Add red border to incorrect form fields */
-.form-inline input.error,
-.form-inline textarea.error {
-    border: 1px solid #FF0000 !important
-}
-
-.middle#contact #contact-form-result{
-    display: none;
-}
-.middle#contact #contact-form-result .alert{
-    margin: 20px 0 0 0;
-    font-size: 13px;
-}
-
 /*******************
       LINKS
 ********************/
@@ -402,7 +349,7 @@ btn:focus {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-8 */
 }
 .links .nav {
-    width: 530px;
+    width: 398px;
     margin: 0 auto;
     border-left: 1px solid #f0f0f0;
     border-right: 1px solid #f9f9f9;
