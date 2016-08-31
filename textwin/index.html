@@ -6,6 +6,7 @@
     <title>TextWIn</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./assets/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="./assets/modal.css" media="screen">
     <link rel="icon" type="image/x-icon" href="./files/textwin.png">
   </head>
   <body>
@@ -32,7 +33,7 @@
   <div class="col-xs-12 col-md-4">
     <a href="#" class="thumbnail">
 <center>    <p>Fase 1</p></center>
-      <img src="./files/funcionamento_1.jpeg">
+      <img id="myImg1" src="./files/funcionamento_1.jpeg">
       <p>Funcionamento Normal com Internet/Servidor</p>
     </a>
     
@@ -40,22 +41,35 @@
   <div class="col-xs-12 col-md-4">
     <a href="#" class="thumbnail">
 <center>    <p>Fase 2</p></center>
-      <img src="./files/funcionamento_2.jpeg">
+      <img id="myImg2" src="./files/funcionamento_2.jpeg">
       <p>Funcionamento apenas com Rede Wi-Fi Local (Roteador)</p>
     </a>
   </div>
   <div class="col-xs-12 col-md-4">
     <a href="#" class="thumbnail">
 <center>    <p>Fase 3</p></center>
-      <img src="./files/funcionamento_3.jpeg">
+      <img id="myImg3" src="./files/funcionamento_3.jpeg">
       <p>Funcionamento apenas com Rede Wi-Fi Local (Dispositivos)</p>
     </a>
   </div>
 </div>
 </div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="imgmodal">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
     </div>
     <script src="./assets/jquery-1.10.2.min.js"></script>
     <script src="./assets/bootstrap.js"></script>
+    <script src="./assets/modal.js"></script>
     <script src="../assets/js/bootswatch.js"></script>
   </body>
 </html>
