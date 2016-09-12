@@ -27,7 +27,8 @@ CREATE TABLE Aviao (
 CREATE TABLE Classe (
 	Codigo integer PRIMARY KEY AUTOINCREMENT,
 	Nome string,
-	Refeicao integer
+	Refeicao integer,
+	FOREIGN KEY (Refeicao) REFERENCES Refeicao(Codigo)
 );
 
 CREATE TABLE Assento (
@@ -53,7 +54,10 @@ CREATE TABLE Aeroporto (
 CREATE TABLE Passagem (
 	Passageiro string,
 	Voo string,
-	Assento integer
+	Assento integer,
+	FOREIGN KEY (Assento) REFERENCES Assento(Numero),
+	FOREIGN KEY (Voo) REFERENCES Voo(Codigo),
+	FOREIGN KEY (Passageiro) REFERENCES Pessoa(Identidade)
 );
 
 CREATE TABLE Refeicao (
