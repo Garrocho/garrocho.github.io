@@ -34,5 +34,7 @@ while op != "6":
     op = raw_input("\nOperacao: ")
     if op == "1":
         adicionar_mensagem()
+    elif op == "4":
+        listar_por_nome()
     elif op == "5":
         listar_mensagens()
