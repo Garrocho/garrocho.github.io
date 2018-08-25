@@ -1294,7 +1294,6 @@ p {
   margin: 0 0 10.5px;
 }
 .lead {
-  margin-bottom: 21px;
   font-size: 17px;
   font-weight: 300;
   line-height: 1.4;
@@ -1412,7 +1411,6 @@ a.bg-danger:focus {
   background-color: #d62c1a;
 }
 .page-header {
-  padding-bottom: 9.5px;
   margin: 42px 0 21px;
   border-bottom: 1px solid transparent;
 }
