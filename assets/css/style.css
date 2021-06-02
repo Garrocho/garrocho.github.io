@@ -1,0 +1,149 @@
+@font-face {
+  font-family: CMR;
+  src: url(../fonts/cmuserif_roman_macroman/cmunrm-webfont.woff);
+}
+@font-face {
+  font-family: CMB;
+  src: url(../fonts/cmuserif_bold_macroman/cmunbx-webfont.woff);
+}
+
+* {
+  font-family: CMR;
+  font-size: 23px;
+  text-align: Left;
+}
+
+.LatexTitle {
+  font-family: CMR;
+  font-size: 40px;
+  padding-top: 5vh;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.LatexName {
+  font-family: CMR;
+  font-size: 27px;
+  text-align: center;
+  margin-bottom: 13px;
+}
+.LatexDate {
+  font-family: CMR;
+  font-size: 27px;
+  text-align: center;
+  margin-top: 13px;
+  margin-bottom: 45px;
+}
+
+.LatexAbstract {
+  font-family: CMB;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.LatexAbstractText {
+  margin-top: 10px;
+  font-family: CMR;
+  font-size: 21px;
+  text-align: center;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+figure {
+  width: auto;
+}
+
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 50%;*/
+}
+
+figure figcaption {
+  text-align: center;
+}
+
+.Margins {
+  padding-left: 5%;
+  width: 90%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .Margins {
+    padding-left: 5%;
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  /* For desktop: */
+  .Margins {
+    padding-left: 10%;
+    width: 70%;
+  }
+
+@media only screen and (min-width: 1200px) {
+  /* For desktop: */
+  .Margins {
+    padding-left: 25%;
+    width: 48%;
+  }
+}
+
+.AbstractMargins {
+  padding-left: 6%;
+  width: 88%;
+  padding-bottom: 15px;
+}
+
+dl dt {
+  font-weight: 800;
+}
+
+h1 {
+  font-family: CMB;
+  font-size: 33px;
+  text-align: Left;
+  margin-top: 13px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: CMB;
+  font-size: 28px;
+  text-align: Left;
+  margin-top: 13px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: CMR;
+  font-size: 23px;
+  text-align: Left;
+  margin-top: 13px;
+  margin-bottom: 45px;
+  line-height: 125%;
+}
+
+.email {
+  font-size: 20px;
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco,
+    "Bitstream Vera Sans Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+  border: 2px solid green;
+  color: black;
+  padding: 0px;
+}
+
+.footerSize {
+  height: 30vh;
+  width: 100%;
+}
